@@ -4,6 +4,32 @@
     <meta charset="UTF-8">
     <title>ZonAjedrez</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+      /* Colores de la paleta */
+      :root {
+        --primary-color: #8BC34A;
+        --light-grey: #F2F2F2;
+        --dark-green: #388E3C;
+        --white: #FFFFFF;
+        --dark-grey: #212121;
+      }
+
+      /* Aplicación de colores */
+      body {
+        background-color: var(--light-grey);
+      }
+      nav.navbar {
+        background-color: var(--primary-color);
+      }
+      nav.navbar a.navbar-brand,
+      nav.navbar a.nav-link {
+        color: var(--white);
+      }
+      nav.navbar a.nav-link:hover {
+        background-color: var(--dark-green);
+        color: var(--white);
+      }
+    </style>
   </head>
   <body>
     <!-- Barra de navegación -->
